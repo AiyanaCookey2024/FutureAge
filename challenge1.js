@@ -5,3 +5,6 @@ let username = readline.question("What is your name?");
 let userNum = readline.question("What is your favourite number?");
 console.log(`Hello ${username}`);
 
+if computerfav == userNum {
+    console.log(`That's my favourite number as well`)
+}
