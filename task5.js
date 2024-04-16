@@ -6,7 +6,7 @@ let years = 0
 let pop = 67765900
 do {
     years ++; //increment the year  by 1
-    let increase = pop * 0.3
+    let increase = pop * 0.003 // 0.3/100
     pop += increase // (+= whatver the population is add the increase to it
     console.log(pop)
 }while(pop <= 80000000)
