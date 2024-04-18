@@ -28,16 +28,16 @@
   
    }
    
-// let bookfound = false
-//    for (let i = 0; i < library.length; i++) {
-//        if (library[i].title === userInput) {
-//            console.log("Book found: " + userInput);
-//        bookfound = true
-// }
-//      }
-//      if(bookfound === false){
-//         console.log("Book not found.")
-//      }
+let bookfound = false
+for (let i = 0; i < library.length; i++) {
+if (library[i].title === userInput) {
+  console.log("Book found: " + userInput);
+        bookfound = true
+ }
+     }
+      if(bookfound === false){
+         console.log("Book not found.")
+     }
 
 let words = "A few random words";
 words = words.split("o")
