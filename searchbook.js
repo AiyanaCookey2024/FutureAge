@@ -16,7 +16,7 @@
   }
     ];
     const readline = require("readline-sync");
-    var userInput = readline.question("Please enter book name");
+    var userInput = readline.question("Please enter book name"); //need to define our variable - we are using var
 
     for (let i=0; i < library.length; i++){
      let searchbook = `'${userInput}';`;  
